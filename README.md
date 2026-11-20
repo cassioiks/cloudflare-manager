@@ -215,3 +215,7 @@ npm run dev          # UI on http://localhost:5173 with hot reload, proxies /api
 | `Port 5480 is already in use` | Set another `PORT` in `.env`. |
 | `Could not determine public IP` | The machine has no internet access, or the IP services are blocked by a firewall or DNS filter. |
 | IPv6 / `AAAA` records | Not supported by auto-update. Only `A` records (IPv4) are kept in sync. |
+
+## License
+
+[MIT](LICENSE)
