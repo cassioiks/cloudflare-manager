@@ -1,22 +1,14 @@
-# Secrets
+# Secrets: never commit your token
 .env
 .env.*
 !.env.example
 
 # Runtime state (your zones, record IDs, IP history)
-data/*
-!data/.gitkeep
+data/
 
 # Dependencies and build output
 node_modules/
 dist/
-frontend/node_modules/
-frontend/dist/
-backend/static/
-
-# Python (legacy)
-__pycache__/
-*.pyc
 
 # OS / editor
 .DS_Store
